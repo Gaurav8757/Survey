@@ -10,7 +10,7 @@ export default function UserList() {
         } else {
             // The user is authenticated, so you can make your API request here.
             axios
-                .get(`http://localhost:8000/lists`, {
+                .get(`https://survey-backend-1nzt.onrender.com/lists`, {
                     headers: {
                         Authorization: `${token}`, // Send the token in the Authorization header
                     },
@@ -31,7 +31,7 @@ export default function UserList() {
     // ******************** Delete Functions *************************************/
     const onDeleteEmployee = async (_id) => {
         try {
-            await axios.delete(`http://localhost:8000/delete/${_id}`);
+            await axios.delete(`https://survey-backend-1nzt.onrender.com/delete/${_id}`);
             toast.warn("User Deleted.....!", { theme: "dark", position: "top-right" });
             setAPIData((prevData) => prevData.filter((data) => data._id !== _id));
         } catch (error) {

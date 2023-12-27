@@ -63,7 +63,7 @@ const Form = () => {
     if (validateForm() && !isSubmitting) {
       try {
         setIsSubmitting(true);
-        const response = await axios.post('http://localhost:8000/adduser', {
+        const response = await axios.post('https://survey-backend-1nzt.onrender.com/adduser', {
           name,
           email,
           mobile,

@@ -27,8 +27,7 @@ const Sidebar = () => {
   const closeSubmenu = () => {
     setOpenSubmenu(null);
   };
-  // set email
-  // const loginemail = sessionStorage.getItem("email");
+ 
   return (
     <>
       <nav className="fixed top-0 z-50 w-full bg-gradient-to-r from-indigo-700 to-cyan-600">
