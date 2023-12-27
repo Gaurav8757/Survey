@@ -23,7 +23,7 @@ function Home() {
 
   return (
     <>
-      <img src="/survey.png" alt="bg_img" className="bg-contain " />
+      <img src="/survey.png" alt="bg_img" className="bg-contain w-full bg-cover h-screen" />
       {/* Positioned text overlay */}
       <div className="absolute top-32 left-1/2 transform -translate-x-1/2 -translate-y-1/4 text-white text-4xl font-bold">
         {text}
