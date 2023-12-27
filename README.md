@@ -52,7 +52,7 @@
     ![admin](https://github.com/Gaurav8757/Survey/assets/94515205/538ad486-03db-493e-a7ad-9f226981d194)
 
 
-   2.4 Admin Homepage to Show User-Lists :
+   2.4 Admin Homepage to Show User-Lists with Delete and Logout features:
 
    ![admin userlist with delete](https://github.com/Gaurav8757/Survey/assets/94515205/fe670b74-3323-4bac-be7d-ea58125ff827)
 
