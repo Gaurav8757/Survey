@@ -1,5 +1,25 @@
 # Backend & Frontend User Guide:
 
+# Live Link :
+1. USER: 
+```sh
+https://statuesque-jalebi-910cb7.netlify.app/
+
+```
+2. ADMIN:
+
+```sh
+https://statuesque-jalebi-910cb7.netlify.app/admin
+Email & Password
+{
+    "name": "Gaurav Kumar",
+    "email": "mr.gauravkumar8757@gmail.com",
+    "password": "Gaurav@123"
+}
+```
+
+
+
 # Server
 *Run Command on Local-Machine :
  ```sh
